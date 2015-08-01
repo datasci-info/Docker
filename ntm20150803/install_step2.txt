@@ -1,0 +1,45 @@
+    1  ls
+    2  cd root/
+    3  cd .pyenv/
+    4  ls
+    5  cd ~
+    6  ls
+    7  pyenv update
+    8  pyenv install --list
+    9  pyenv install anaconda-2.3.0
+   10  pyenv versions
+   11  pyenv global anaconda-2.3.0 
+   12  ipython
+   13  history 
+   14  history > /install_step1.txt
+   15  cd /
+   16  ls
+   17  ipython
+   18  exit
+   19  ls
+   20  cp install_step1.txt ntm-docker/
+   21  ls
+   22  ipython notebook 
+   23  ipython notebook --ip 0.0.0.0
+   24  ls
+   25  cd ntm-docker/
+   26  ls
+   27  ipython notebook --ip 0.0.0.0
+   28  ipython profile create
+   29  vim changjs.sh
+   30  vim /root/.ipython/profile_default/static/custom/custom.js
+   31  vim changjs.sh
+   32  sh changjs.sh 
+   33  vim /root/.ipython/profile_default/static/custom/custom.js
+   34  vim mk_ipynb_config.sh
+   35  sh mk_ipynb_config.sh 
+   36  vim /root/.ipython/profile_default/ipython_notebook_config.py
+   37  ipython notebook --ip 0.0.0.0
+   38  ls
+   39  conda update conda
+   40  conda install cPickle
+   41  conda install cpickle
+   42  pip install cpickle
+   43  pip install cPickle
+   44  ipython
+   45  history > /ntm-docker/install_step2.txt 

@@ -1,0 +1,14 @@
+    1  ls
+    2  cd root/
+    3  cd .pyenv/
+    4  ls
+    5  cd ~
+    6  ls
+    7  pyenv update
+    8  pyenv install --list
+    9  pyenv install anaconda-2.3.0
+   10  pyenv versions
+   11  pyenv global anaconda-2.3.0 
+   12  ipython
+   13  history 
+   14  history > /install_step1.txt
